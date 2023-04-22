@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: #18181B;
+    padding: 24px 55px;
+
+}
+
+.logo{
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #18181B;
+    
+}
+
+.logo span{
+    color: #511593;
+}
+
+.lista{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #511593;
+    padding: 5px 14px;
+    color: #FFF;
+    border-radius: 4px;
+    font-weight: bold;
+
+
+}
+
+.cadastro{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #511593;
+    padding: 5px 14px;
+    color: #FFF;
+    border-radius: 4px;
+    font-weight: bold;
+
+}

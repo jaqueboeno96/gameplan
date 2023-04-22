@@ -1,0 +1,58 @@
+.jogos-info{
+    margin: 0 auto;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0 8px;
+    background-color: #0E0E10;
+    color: #FFF;
+}
+
+.jogos-info h1{
+    margin: 14px 0;
+}
+
+.jogos-info img{
+    width: 800px;
+    max-width: 100%;
+    max-height: 340px;
+    padding: 0 8px;
+    border-radius: 15px;
+    object-fit: cover;
+    background-color: #0E0E10;
+}
+
+.jogos-info h3{
+    margin-top: 14px;
+}
+
+.jogos-info span{
+    margin: 8px 0;
+}
+
+.area-buttons  button{
+    margin-right: 12px;
+    margin-top: 14px;
+    margin-left: 0;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.area-buttons button:hover{
+    background-color: #0E0E10;
+}
+
+.area-buttons a{ 
+    text-decoration: none;
+    color: #FFF;
+    transition: all 0.5s;
+}
+
+.area-buttons a:hover{
+    color: #FFF;
+}

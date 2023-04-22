@@ -1,0 +1,54 @@
+.lista-jogos{
+    max-width: 100%;
+    background-image: #0E0E10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.lista-jogos article{
+    width: 31%;
+    margin-bottom: 30px;
+    background-color: #0E0E10;
+    border-radius: 4px;
+}
+
+.lista-jogos strong{
+    color: #FFF;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+}
+
+.lista-jogos img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.lista-jogos a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 24px;
+    background-color: #000;
+    text-decoration: none;
+    color: #FFF;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    color: #FFF;
+}

@@ -1,0 +1,41 @@
+.meus-jogos{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+}
+
+.meus-jogos h1{
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+.meus-jogos span{
+    font-size:  22px;
+    font-weight: bold;
+}
+
+.meus-jogos ul{
+    width: 720px;
+}
+
+.meus-jogos ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.meus-jogos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meus-jogos div a{
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 14px;
+}
